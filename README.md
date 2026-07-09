@@ -16,18 +16,18 @@ Frontend:  Angular 20 (standalone components) + SCSS
 Auth:      JWT proprio (SSO simulado), RBAC com 2 perfis
 Docs API:  Swagger / OpenAPI
 Testes:    JUnit 5, Mockito, Testcontainers (backend) | Jasmine + Karma (frontend)
-Empacotamento: WAR (executavel tambem via "java -jar")
+Empacotamento: WAR (executável tambem via "java -jar")
 
 PRÉ-REQUISITOS
 ---------------
 - JDK 21
-- Maven (ou usar o mvnw incluido)
+- Maven (ou usar o mvnw incluído)
 - Node.js LTS + Angular CLI
 - Docker Desktop
 
 COMO RODAR
 ----------
-1. docker compose up -d                      (na raiz do projeto)
+1. docker compose up -d (na raiz do projeto)
 2. Abrir o backend no IntelliJ e rodar GestaohospedesApplication
 3. cd frontend && npm install && ng serve
 4. Acessar http://localhost:4200
