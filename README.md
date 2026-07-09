@@ -34,20 +34,20 @@ COMO RODAR
 
 USUÁRIOS DE TESTE
 ------------------
-recepcionista / recepcionista123      (perfil RECEPCIONISTA)
+recepcionista / recepcionista123      (perfil RECEPCIONISTA) <br/>
 gerente       / gerente123            (perfil GERENTE)
 
 ENDPOINTS PRINCIPAIS
 ---------------------
-POST   /api/auth/login
-GET    /api/hospedes?busca=&page=&size=
-POST   /api/hospedes
-PUT    /api/hospedes/{id}
-DELETE /api/hospedes/{id}                 (somente GERENTE)
-POST   /api/checkins
-PUT    /api/checkins/{id}/saida
-GET    /api/checkins/presentes
-GET    /api/checkins/finalizados
+POST   /api/auth/login <br/>
+GET    /api/hospedes?busca=&page=&size= <br/>
+POST   /api/hospedes <br/>
+PUT    /api/hospedes/{id} <br/>
+DELETE /api/hospedes/{id} (somente GERENTE) <br/>
+POST   /api/checkins <br/>
+PUT    /api/checkins/{id}/saida <br/>
+GET    /api/checkins/presentes <br/>
+GET    /api/checkins/finalizados <br/>
 GET    /api/hospedes/{id}/resumo-financeiro
 
 Documentacao interativa completa: http://localhost:8080/swagger-ui/index.html
