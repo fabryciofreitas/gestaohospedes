@@ -10,13 +10,13 @@ dois perfis de acesso (Recepcionista e Gerente).
 
 ARQUITETURA
 -----------
-Backend:   Java 21 + Spring Boot 4.1 (WebMvc, Data JPA, Security, Validation)
-Banco:     PostgreSQL 16 (via Docker Compose)
-Frontend:  Angular 20 (standalone components) + SCSS
-Auth:      JWT proprio (SSO simulado), RBAC com 2 perfis
-Docs API:  Swagger / OpenAPI
-Testes:    JUnit 5, Mockito, Testcontainers (backend) | Jasmine + Karma (frontend)
-Empacotamento: WAR (executável tambem via "java -jar")
+Backend:   Java 21 + Spring Boot 4.1 (WebMvc, Data JPA, Security, Validation) <br/>
+Banco:     PostgreSQL 16 (via Docker Compose) <br/>
+Frontend:  Angular 20 (standalone components) + SCSS <br/>
+Auth:      JWT proprio (SSO simulado), RBAC com 2 perfis <br/>
+Docs API:  Swagger / OpenAPI <br/>
+Testes:    JUnit 5, Mockito, Testcontainers (backend) | Jasmine + Karma (frontend) <br/>
+Empacotamento: WAR (executável tambem via "java -jar") 
 
 PRÉ-REQUISITOS
 ---------------
