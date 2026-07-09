@@ -1,11 +1,11 @@
-SISTEMA DE GESTAO DE HOSPEDES E CHECK-IN DE HOTEL
+SISTEMA DE GESTÃO DE HÓSPEDES E CHECK-IN DE HOTEL
 ====================================================
 
 SOBRE O PROJETO
 ----------------
-Sistema full-stack para cadastro de hospedes e controle de check-in/check-out
-de um hotel, com calculo automatico de tarifas (dia util, fim de semana,
-vaga de garagem e diaria extra por saida tardia), login com token JWT e
+Sistema full-stack para cadastro de hóspedes e controle de check-in/check-out
+de um hotel, com cálculo automático de tarifas (dia útil, fim de semana,
+vaga de garagem e diária extra por saída tardia), login com token JWT e
 dois perfis de acesso (Recepcionista e Gerente).
 
 ARQUITETURA
@@ -18,7 +18,7 @@ Docs API:  Swagger / OpenAPI
 Testes:    JUnit 5, Mockito, Testcontainers (backend) | Jasmine + Karma (frontend)
 Empacotamento: WAR (executavel tambem via "java -jar")
 
-PRE-REQUISITOS
+PRÉ-REQUISITOS
 ---------------
 - JDK 21
 - Maven (ou usar o mvnw incluido)
@@ -32,7 +32,7 @@ COMO RODAR
 3. cd frontend && npm install && ng serve
 4. Acessar http://localhost:4200
 
-USUARIOS DE TESTE
+USUÁRIOS DE TESTE
 ------------------
 recepcionista / recepcionista123      (perfil RECEPCIONISTA)
 gerente       / gerente123            (perfil GERENTE)
@@ -52,17 +52,17 @@ GET    /api/hospedes/{id}/resumo-financeiro
 
 Documentacao interativa completa: http://localhost:8080/swagger-ui/index.html
 
-REGRAS DE NEGOCIO
+REGRAS DE NEGÓCIO
 ------------------
-- Diaria dia util (seg-sex): R$ 120,00 | fim de semana (sab-dom): R$ 150,00
-- Vaga de garagem: R$ 15,00 (dia util) ou R$ 20,00 (fim de semana), por diaria
-- Saida apos 16h30: cobra-se uma diaria extra (tarifa do dia da saida)
-- Estadia no mesmo dia: cobra-se 1 diaria cheia
+- Diária dia útil (seg-sex): R$ 120,00 | fim de semana (sab-dom): R$ 150,00
+- Vaga de garagem: R$ 15,00 (dia útil) ou R$ 20,00 (fim de semana), por diária
+- Saída após 16h30: cobra-se uma diária extra (tarifa do dia da saída)
+- Estadia no mesmo dia: cobra-se 1 diária cheia
 
 TESTES
 ------
-mvn test               (backend: testes unitarios e de integracao com Testcontainers)
-cd frontend && ng test (frontend: testes de servico e de componente)
+mvn test               (backend: testes unitários e de integração com Testcontainers)
+cd frontend && ng test (frontend: testes de serviço e de componente)
 
 ESTRUTURA DE PASTAS
 ---------------------
