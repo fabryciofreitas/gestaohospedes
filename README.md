@@ -66,8 +66,8 @@ cd frontend && ng test (frontend: testes de serviço e de componente)
 
 ESTRUTURA DE PASTAS
 ---------------------
-src/main   dominio, repositorio, servico, controlador, dto, seguranca, config
-src/test   testes do backend
+src/main   dominio, repositorio, servico, controlador, dto, seguranca, config <br/>
+src/test   testes do backend <br/>
 frontend/  core (models, services, guards, interceptors), features, styles
 
 AUTOR
