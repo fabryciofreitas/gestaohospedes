@@ -50,7 +50,7 @@ GET    /api/checkins/presentes <br/>
 GET    /api/checkins/finalizados <br/>
 GET    /api/hospedes/{id}/resumo-financeiro
 
-Documentacao interativa completa: http://localhost:8080/swagger-ui/index.html
+Documentação interativa completa: http://localhost:8080/swagger-ui/index.html
 
 REGRAS DE NEGÓCIO
 ------------------
@@ -61,7 +61,7 @@ REGRAS DE NEGÓCIO
 
 TESTES
 ------
-mvn test               (backend: testes unitários e de integração com Testcontainers)
+mvn test               (backend: testes unitários e de integração com Testcontainers) <br/>
 cd frontend && ng test (frontend: testes de serviço e de componente)
 
 ESTRUTURA DE PASTAS
